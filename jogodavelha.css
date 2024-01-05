@@ -29,9 +29,14 @@ img{
 	text-align: center;
 }
 .subtitulo{
+	color: #FFFFFF;
 	font: small-caps bold 18px "Comic Sans MS",sans-serif;
-	position: absolute;
-	margin-left: 600px;
+	text-align: center;
+	margin: auto;
+	position: relative;
+	width: 290px;
+	background-color: rgba(0, 0, 0, 0.55);
+	bottom: 1em;
 }
 .vencedor{
 	font: small-caps bold 18px "Comic Sans MS",sans-serif;

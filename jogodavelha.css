@@ -1,0 +1,81 @@
+img{
+	max-width: 165px;
+	max-height: 165px;
+}
+.jogo{
+	width: 510px;
+	height: 510px;
+	border: solid 3px #593464;
+	border-radius: 20px;
+	margin: auto;
+}
+.linha{
+	height: 170px;
+	border-bottom: solid 1px #593464;
+}
+#linha3{
+	border-bottom: none;
+}
+.casa{
+	width: 165px;
+	height: 100%;
+	border-left: solid 1px #593464;
+	float: left;
+	cursor: pointer;
+}
+.titulo{
+	color: #FFFFFF;
+	font: small-caps bold 20px "Comic Sans MS",sans-serif;
+	text-align: center;
+}
+.subtitulo{
+	font: small-caps bold 18px "Comic Sans MS",sans-serif;
+	position: absolute;
+	margin-left: 600px;
+}
+.vencedor{
+	font: small-caps bold 18px "Comic Sans MS",sans-serif;
+	text-align: center;
+}
+body{
+	background-image:url('imagem/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#modalGojo{
+	background-image: url("imagem/gogoWins2.png");
+	background-repeat: no-repeat;
+	width: 30em;
+	height: 30em;
+	position: absolute;
+	bottom: 7em;
+	left: 25em;
+	cursor: pointer;
+}
+#modalSukuna{
+	background-image: url("imagem/sukunaWins.png");
+	background-repeat: no-repeat;
+	width: 30em;
+	height: 30em;
+	position: absolute;
+	bottom: 7em;
+	left: 25em;
+	cursor: pointer;
+}
+#empate{
+	background-image: url("imagem/empate3.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 30em;
+	height: 30em;
+	position: absolute;
+	bottom: 4.4em;
+	left: 32em;
+	cursor: pointer;
+}
+
+.close{
+	z-index: -1;
+	display: none;
+}

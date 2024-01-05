@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="jogodavelha.css">
+	<script type="text/javascript" src="jogodavelha.js"></script>
+</head>
+<body>
+	<p class="titulo">jogo da velha</p>
+	<p class="vencedor" id="vencedor"></p>
+	<br>
+	<div class="jogo">
+		<div class="linha" id="linha1">
+			<div class="casa"><img src="imagem/fundo.png" id="casa1" onclick="jogar(this.id);"></div>
+			<div class="casa"><img src="imagem/fundo.png" id="casa2" onclick="jogar(this.id);"></div>
+			<div class="casa"><img src="imagem/fundo.png" id="casa3" onclick="jogar(this.id);"></div>
+	    </div>
+	    <div class="linha" id="linha2">
+			<div class="casa"><img src="imagem/fundo.png" id="casa4" onclick="jogar(this.id);"></div>
+			<div class="casa"><img src="imagem/fundo.png" id="casa5" onclick="jogar(this.id);"></div>
+			<div class="casa"><img src="imagem/fundo.png" id="casa6" onclick="jogar(this.id);"></div>
+		</div>
+		<div class="linha" id="linha3">
+			<div class="casa"><img src="imagem/fundo.png" id="casa7" onclick="jogar(this.id);"></div>
+			<div class="casa"><img src="imagem/fundo.png" id="casa8" onclick="jogar(this.id);"></div>
+			<div class="casa"><img src="imagem/fundo.png" id="casa9" onclick="jogar(this.id);"></div>
+		</div>
+	</div>
+
+	<div onclick="reiniciarJogo()" id="modalGojo" class="close"></div>
+	<div onclick="reiniciarJogo()" id="modalSukuna" class="close"></div>
+	<div onclick="reiniciarJogo()" id="empate" class="close"></div>
+</body>
+</html>

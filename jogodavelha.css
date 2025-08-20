@@ -48,36 +48,28 @@ body{
 	background-size: cover;
 }
 
-#modalGojo{
-	background-image: url("imagem/gogoWins2.png");
-	background-repeat: no-repeat;
+#modalGojo, #modalSukuna, #empate{
 	width: 30em;
 	height: 30em;
 	position: absolute;
-	bottom: 7em;
-	left: 25em;
+	top: 5em;
+	left: 33%;
 	cursor: pointer;
+	margin: auto;
+}
+
+#modalGojo{
+	background-image: url("imagem/gogoWins2.png");
+	background-repeat: no-repeat;
 }
 #modalSukuna{
 	background-image: url("imagem/sukunaWins.png");
 	background-repeat: no-repeat;
-	width: 30em;
-	height: 30em;
-	position: absolute;
-	bottom: 7em;
-	left: 25em;
-	cursor: pointer;
 }
 #empate{
 	background-image: url("imagem/empate.png");
 	background-repeat: no-repeat;
 	background-size: contain;
-	width: 30em;
-	height: 30em;
-	position: absolute;
-	bottom: 4.4em;
-	left: 32em;
-	cursor: pointer;
 }
 
 .close{
